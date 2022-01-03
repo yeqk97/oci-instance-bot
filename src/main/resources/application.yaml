@@ -1,0 +1,20 @@
+bot:
+  api-config-path: ~/.oci/config
+  api-config-profile: DEFAULT
+  region-id: eu-frankfurt-1
+  compartment-id: ocid1.tenancy.oc1..aaaaaaaashz2rzoqu3cncomrpn3rrwmkfixyl5qk4kyxwoedmmszrjwn5y3q
+  retry-rate-minutes: 6
+  instance:
+    display-name: vm
+    image-id: "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaa6ueulrtedgclrxznl5pkzhzseddl7b6iq6jhdl3vjm62zhddpxta"
+    shape: "VM.Standard.A1.Flex"
+    shape-config:
+      ocpus: 4
+      memory-in-gbs: 24
+    assign-public-ip: true
+    subnet-id: ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaaopbiwhsrnim3x6hyyq53iacueflnkyt5xcttolpkeaoa2lomnwwa
+    private-ip: 10.0.0.2
+    ssh-key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDumMGkrsvVZwEpt6yQLJd+9s39GPJ7VnX6iaCVuKe3da3AtM0Qooscsskg2RJm6qLX86IDE0iGWjM9NeV4NYKVxy953yNQcPn6oRxPILZoBmrYsSHjZ3eVw+u6dYVmq2JbSG5SpeXgtKG5fzWnxWmSnf8phFhoUMqGYwri9UjfQ9OAywKPNvnUrs9IlJXgaZUa1jnqSHKq/hWtYQd4MuI6LThlVjFuJcJpoB9C0N4MNT/Ym2ipaA/Yc7vX8VDEwAJ05DzLUtLzcVbof0SaA3H5XmXSzZaNcGQUHA3JyHRsn/s1FPjyITS8IoV7Dv2eIClR5TcI6W4ckLdLVpJh7SFd ssh-key-2022-01-02"
+    boot-volume-size-in-gbs: 50
+    availability-domain: "Kcww:EU-FRANKFURT-1-AD-2"
+
