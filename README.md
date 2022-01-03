@@ -23,5 +23,5 @@ docker build -t yeqk/oci-instance-bot .
    key file name.
 4. From inside the folder run:
 ```
-docker run -it -v ${PWD}:/app/config yeqk/oci-instance-bot
+docker run -dit -v ${PWD}:/app/config yeqk/oci-instance-bot
 ```
